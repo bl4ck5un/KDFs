@@ -18,8 +18,8 @@ name = "hkdf"
 path = "src/hkdf.rs"
 
 [dependencies]
-digest = {ver = "0.9", git = "https://github.com/mesalock-linux/rustcrypto-traits-sgx"}
-hmac = {ver = "0.10", git = "https://github.com/mesalock-linux/rustcrypto-MACs-sgx"}
+digest = {version = "0.9", git = "https://github.com/mesalock-linux/rustcrypto-traits-sgx"}
+hmac = {version = "0.10", git = "https://github.com/mesalock-linux/rustcrypto-MACs-sgx"}
 
 [dev-dependencies]
 #crypto-tests = "0.5.*"
