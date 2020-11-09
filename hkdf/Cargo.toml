@@ -22,11 +22,11 @@ digest = {version = "0.9", git = "https://github.com/mesalock-linux/rustcrypto-t
 hmac = {version = "0.10", git = "https://github.com/mesalock-linux/rustcrypto-MACs-sgx"}
 
 [dev-dependencies]
-#crypto-tests = "0.5.*"
-#hex = "0.4"
-#sha-1 = "0.9"
-#sha2 = "0.9"
-#bencher = "0.1"
+crypto-tests = "0.5.*"
+hex = "0.4"
+sha-1 = "0.9"
+sha2 = "0.9"
+bencher = "0.1"
 
 [[bench]]
 name = "hkdf"
